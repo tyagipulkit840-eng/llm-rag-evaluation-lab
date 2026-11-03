@@ -1,0 +1,22 @@
+[
+  {
+    "id": "rag-001",
+    "question": "What is Retrieval-Augmented Generation?",
+    "reference_answer": "Retrieval-Augmented Generation retrieves relevant external information and provides it to a language model to generate a grounded response.",
+    "generated_answer": "RAG retrieves relevant external information and gives it to a language model to produce a grounded response.",
+    "retrieved_contexts": [
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with text generation. Relevant documents are retrieved and supplied as context to a language model."
+    ],
+    "tags": ["definition", "happy-path"]
+  },
+  {
+    "id": "rag-002",
+    "question": "Does RAG guarantee that a model never hallucinates?",
+    "reference_answer": "No. RAG can reduce unsupported answers by grounding generation in retrieved information, but it does not guarantee that hallucinations will never occur.",
+    "generated_answer": "Yes. RAG completely eliminates hallucinations in every response.",
+    "retrieved_contexts": [
+      "RAG can improve factual grounding, but retrieval errors, irrelevant context, and generation errors can still produce unsupported responses."
+    ],
+    "tags": ["hallucination", "negative-case"]
+  }
+]

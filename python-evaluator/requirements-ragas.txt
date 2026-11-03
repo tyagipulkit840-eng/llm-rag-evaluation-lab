@@ -1,0 +1,4 @@
+# Optional LLM-based evaluation dependencies.
+# Check the current RAGAS documentation when updating this package.
+ragas>=0.2.0
+openai>=1.58.1
